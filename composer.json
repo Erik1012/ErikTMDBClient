@@ -1,6 +1,6 @@
 {
-    "name": "mezzio/mezzio-skeleton",
-    "description": "Laminas mezzio skeleton. Begin developing PSR-15 middleware applications in seconds!",
+    "name": "erik/erik-tmdb-client",
+    "description": "Erik's test project",
     "type": "project",
     "license": "BSD-3-Clause",
     "keywords": [
@@ -48,7 +48,8 @@
         "laminas/laminas-zendframework-bridge": "^1.0",
         "mezzio/mezzio": "^3.2.1",
         "mezzio/mezzio-fastroute": "^3.0.3",
-        "mezzio/mezzio-helpers": "^5.3"
+        "mezzio/mezzio-helpers": "^5.3",
+        "symfony/console": "^5.2"
     },
     "require-dev": {
         "laminas/laminas-development-mode": "^3.2",
@@ -62,7 +63,7 @@
     "autoload": {
         "psr-4": {
             "App\\": "src/App/src/",
-            "Erik\\ErikTMDBClient\\": "src/ErikTMDBClient/src/"
+            "Erik\\ErikTMDBClient\\": "src/ErikTMDBClient/src/"            
         }
     },
     "autoload-dev": {

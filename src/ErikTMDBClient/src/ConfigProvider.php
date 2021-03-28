@@ -8,8 +8,6 @@ declare(strict_types=1);
 
 namespace Erik\ErikTMDBClient;
 
-use Erik\ErikTMDBClient\Handler\MovieDatabaseUpdateHandler;
-use Erik\ErikTMDBClient\Handler\MovieDatabaseUpdateHandlerFactory;
 use Erik\ErikTMDBClient\Providers\TMDBApiUrlProvider;
 use Erik\ErikTMDBClient\Providers\TMDBApiUrlProviderFactory;
 use Erik\ErikTMDBClient\Providers\TMDBApiUrlProviderInterface;
